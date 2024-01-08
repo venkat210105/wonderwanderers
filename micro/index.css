@@ -1,0 +1,46 @@
+body{
+    background-image: url('https://2672686a4cf38e8c2458-2712e00ea34e3076747650c92426bbb5.ssl.cf1.rackcdn.com/2018-02-21-16-58-50.jpeg');
+    background-size: cover;
+ }
+ #maindiv{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+ }
+ #loginscreen{
+     width: 25vw;
+     height: auto;
+     font-family: cursive;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     box-shadow: 0 0 50px rgba(0,0,0,0.3);
+     backdrop-filter: blur(2px);
+     border: 3px;
+     border-radius: 5%;
+     border-style: solid;
+ }
+ #logintitle{
+     font-family:'Snell Roundhand',cursive;
+     color:rgb(6, 98, 155);
+     font-size:xx-large;
+     margin-bottom: 20px;
+ }
+ .button
+ {
+     background-color: rgb(6, 139, 248);
+ }
+ #submit_and_reset
+ {
+ margin-left: auto;
+ }
+ #modebutton
+ {
+     position: absolute;
+     top: 5px;
+     right: 5px;
+ }
+ 
